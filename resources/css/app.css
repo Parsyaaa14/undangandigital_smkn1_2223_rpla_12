@@ -1,0 +1,7 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.card-header h1 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
