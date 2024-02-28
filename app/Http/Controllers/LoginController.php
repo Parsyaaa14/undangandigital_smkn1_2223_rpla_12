@@ -8,6 +8,6 @@ class LoginController extends Controller
 {
     //
     public function FormLogin(){
-        return view('Admin.login');
+        return view('admin.login.form');
     }
 }

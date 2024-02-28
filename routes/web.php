@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login',[LoginController::class, 'FormLogin'])->name('login.form');
+Route::get('/login',[LoginController::class, 'FormLogin'])->name('admin.login.form');
